@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+
+# Environment variables (secrets)
+.env
+
+# Data files (large ZIPs from data.gov.ua - never commit)
+data/*.zip
+data/*.xml
+data/*.XML.xml
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
