@@ -264,3 +264,14 @@ LEFT JOIN founders f ON f.subject_record = s.record AND f.subject_type = 'uo'
 LEFT JOIN beneficiaries b ON b.subject_record = s.record AND b.subject_type = 'uo'
 WHERE s.edrpou = '14359609';
 ```
+
+
+```mermaid
+flowchart TD
+    Total["Український ринок RegTech 2026: 53 активні A/B компанії"]
+    Total --> S1["S1: Самостійні RegTech-продукти (23 / 43.4%)"]
+    Total --> S2["S2: Вбудовані модулі АБС/ERP (10 / 18.9%)"]
+    Total --> S3["S3: Провайдери даних та реєстрів (10 / 18.9%)"]
+    Total --> S4["S4: Системні інтегратори (2 / 3.8%)"]
+    Total --> S5["S5: Комплаєнс-консалтинг та аудит (8 / 15.1%)"]
+```
